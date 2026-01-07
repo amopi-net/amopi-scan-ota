@@ -187,8 +187,7 @@ L'application Flutter doit implémenter cette logique. Voici l'essentiel en Dart
 ```dart
 // 1. URL fixe pour récupérer les infos de mise à jour
 const String OTA_LATEST_URL =
-    "https://raw.githubusercontent.com/TON_COMPTE/amopi-scan-ota/main/latest.json";
-
+    "https://raw.githubusercontent.com/amopi-net/amopi-scan-ota/main/latest.json";
 // 2. Dans votre OTAManager ou service de mise à jour
 Future<void> checkAndUpdate() async {
   // Récupérer les informations de la dernière version
@@ -249,13 +248,13 @@ jobs:
       - name: Checkout le code de l'app
         uses: actions/checkout@v3
         with:
-          repository: 'TON_COMPTE/amopi_scan' # VOTRE REPO DE CODE SOURCE
+          repository: 'amopi-net/amopi_scan'
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
 
       - name: 🔧 Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.x' # Adapter selon votre version
+          flutter-version: '3.x'
           channel: 'stable'
 
       - name: Installer les dépendances
