@@ -180,7 +180,7 @@ git push origin main --tags
 3. Sélectionnez uniquement : `repo` (pour un dépôt privé).
 4. Copiez-le et gardez-le secret ! Il ne sera plus affiché.
 
-## 📱 Intégration dans l'Application Flutter amopi_scan
+## Intégration dans l'Application Flutter amopi_scan
 
 L'application Flutter doit implémenter cette logique. Voici l'essentiel en Dart :
 
