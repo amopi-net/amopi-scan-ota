@@ -1,9 +1,9 @@
 {
-  "version_code": 7,
-  "version_name": "7",
-  "apk_url": "https://github.com/amopi-net/amopi-scan-ota/raw/refs/heads/main/releases/v7/amopi-scan-v7-release.apk",
-  "apk_size": 17044420,
-  "checksum_sha256": "0e6e385ace1db68c5804d68381f1986084706ceb1aa31807fbbfed4e4e06b722",
-  "release_notes": "add update automatique",
+  "version_code": 8,
+  "version_name": "8",
+  "apk_url": "https://raw.githubusercontent.com/amopi-net/amopi-scan-ota/main/releases/v8/amopi-scan-v8-release.apk",
+  "apk_size": 17342901,
+  "checksum_sha256": "f7fa1605371579ba649f2521265b32c893f6adf42900a36fd21f531bf94d17bd",
+  "release_notes": "• amelioration de l'interface utilisateur",
   "mandatory": true
 }

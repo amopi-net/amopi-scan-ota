@@ -1,0 +1,24 @@
+# Changelog
+
+## [8.0.0] - Version Actuelle
+
+### 🏗 Architecture & Performance
+*   **Architecture Hexagonale** : Migration complète du projet vers une architecture propre (Clean Architecture) séparant clairement le Domaine, l'Infrastructure et la Présentation.
+*   **Optimisation PostgreSQL** : Réécriture des requêtes de synchronisation pour un filtrage plus fin et des performances accrues lors de la récupération des articles.
+*   **Robustesse** : Utilisation de `fpdart` pour une gestion des erreurs typée et sécurisée.
+
+### ✨ Fonctionnalités & Mises à jour
+*   **Mise à jour OTA (GitHub)** : Le système de mise à jour repose désormais exclusivement sur GitHub (suppression de l'ancien système FTP).
+*   **Synchronisation** :
+    *   **Calcul de Sync** : Ajout du calcul de la synchronisation avec le serveur pour optimiser les échanges.
+    *   **Re-Sync** : Ajout d'un mécanisme de re-synchronisation directement sur l'écran de scan.
+*   **Interface de Scan** :
+    *   Redesign complet de la page pour une meilleure ergonomie.
+    *   **Système d'Avertissement** : Ajout d'un bandeau visuel en haut de l'écran pour signaler l'état de la connexion (Mode Hors Ligne avec données locales disponibles ou Erreur critique si aucune donnée n'est synchronisée).
+
+### 🎨 Interface Utilisateur (UI/UX)
+*   **Connexion Simplifiée** : Refonte de l'écran de login pour ne conserver que l'essentiel et accélérer l'accès.
+*   **Paramètres** : Réorganisation complète du menu des paramètres pour regrouper les configurations de manière logique.
+
+### 🐛 Corrections
+*   Multiples correctifs de bugs et améliorations de la stabilité suite à la refonte.
